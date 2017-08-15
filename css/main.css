@@ -1,0 +1,550 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1.8;
+    font-family: 'Play', sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #e3e3e3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 20px 0 25px 0;
+
+}
+
+section:first-of-type {
+    padding-top: 50px;
+
+}
+section{
+    background: url(../img/icon/pattern.png);
+}
+.huge{
+    min-height: 80%;
+}
+.container{
+    padding: 0 30px 30px 30px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.foot{
+    box-shadow: none;
+}
+.container-fluid{
+    text-align: center;
+    background: #ffffff;
+}
+
+.bg-main {
+    background: url(../img/fone.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.pictl{
+    float: left;
+    width: 40%;
+    margin: 0 20px 0 0;
+
+}
+.pictr{
+    float: right;
+    width: 40%;
+    margin: 0 0 0 20px;
+
+}
+
+/* цвет фона и рамки навигационного меню */
+.navbar-default {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* цвет текста, содержащий название сайта или бренда */
+
+.navbar-default .navbar-brand {
+    font-family: 'Play', sans-serif;
+    font-size: 2em;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 65px;
+}
+
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+/* Цвет пунктов навигационного меню */
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #7f7f7f;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #df5000;
+    background-color: transparent;
+}
+
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+/* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+/* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+
+/* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+
+/* CSS стили для мобильных устройств */
+
+/* Цвет рамки у кнопки, которая открывает меню */
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+/* Цвет полосочек в кнопочке, которая открывает меню */
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000034;
+}
+
+.slogan {
+    color: #1f6682;
+    margin: 50px 0 50px 0;
+}
+
+.text {
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 2.5;
+}
+
+.fa {
+    color: #e8e800;
+    line-height: 2.5;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.red {
+    color: #ff0000;
+    font-weight: 600;
+}
+.scrap {
+    color: red;
+    display: block;
+    margin-top: 150px;
+}
+
+.slog-bg-main {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    border-left: 3px solid cornflowerblue;
+    font-size: 1.8em;
+    color: #e8e800;
+    line-height: 2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.46);
+}
+.bg-main h1{
+    margin-top: -40px;
+}
+
+.phone-main {
+    font-size: 2em;
+    color: red;
+    margin: -30px 0 20px 0;
+    display: block;
+}
+
+.phone-main:hover {
+    color: #cb0000;
+}
+
+.button {
+    background: #e8e800;
+    margin: 25px 0 30px 0;
+    font-size: 1.2em;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.button a {
+    color: rgb(0, 0, 0);
+    background: #e8e800;
+    padding: 15px;
+    display: block;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.button a:hover {
+    background: rgba(197, 138, 49, 0.5);
+}
+
+.fieldset {
+    border: 1px solid grey
+}
+
+.main {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.form-horizontal {
+    background: rgba(191, 191, 0, 0.71);
+    margin: 0px 0 25px 0;
+    padding: 10px 10px 0 10px;
+    border: 1px solid #cbcbcb;
+}
+
+.control-label {
+    color: #0e1f0e;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+#tel:focus:invalid {
+    border: 1px solid red;
+}
+
+#tel:valid {
+    border: 1px solid green;
+}
+
+.input-sm {
+    font-size: 14px;
+}
+
+.help-block {
+    color: #0f0f0f;
+    font-size: .8em;
+}
+
+.sdat {
+    text-align: center;
+}
+
+.text-ul {
+    font-size: 1.1em;
+    margin: 30px 0 30px 20px;
+    text-align: left;
+    list-style: disc;
+}
+
+.text, .text-ul {
+    line-height: 2.5;
+    text-align: justify;
+}
+
+#more {
+    background: #ffffff;
+    text-align: center;
+}
+
+.logo {
+    filter: grayscale(1);
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.logo:hover {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.item img {
+    width: 9%;
+}
+
+.glyphicon {
+    color: #ff0000;
+}
+.removal{
+    margin-top: 50px;
+    font-size: 3em;
+    text-align: right;
+    border-right: 2px solid red;
+    padding-right: 15px;
+    /*margin-top: 70px;*/
+}
+.removal-span{
+    display: block;
+}
+.removal-ul{
+    margin-top: 50px;
+    font-size:1.35em;
+    text-align: left;
+    /*list-style: disc;*/
+}
+.manip {
+    /*height: 290px;*/
+    background: url(../img/2.png) no-repeat;
+    background-position: top right;
+    background-size: 20%;
+}
+#map {
+    height: 550px;
+    width: 100%;
+}
+.slog-contact {
+    color: #2aabd2;
+    line-height: 2;
+    font-size: 2em;
+}
+.contacts {
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+
+}
+footer {
+    background: #ffffff;
+    border-top: 2px solid #bfbf00;
+    padding: 30px;
+    }
+
+.menu-footer li {
+    text-align: left;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.phone-footer {
+    margin-top: -25px;
+    color: red;
+    font-size: 2.5em;
+}
+
+.name-footer {
+    color: black;
+
+}
+tr, th{
+    text-align: center;
+}
+
+/*----Arrow to up-----*/
+.UpTop {
+    position: fixed;
+    cursor: pointer;
+    border: 30px solid transparent;
+    border-bottom: 30px solid red;
+    bottom: 50px;
+    right: 5%;
+    opacity: .6;
+    display: none;
+}
+
+.UpTop:hover {
+    opacity: 1;
+}
+.prokat{
+    margin: 10% 0 10% 0;
+    width: 90%;
+    box-shadow: 1px 1px 15px #4d4d4d;
+}
+.prokat:hover{
+    cursor: pointer;
+    transition: .9s ease;
+    backface-visibility: hidden;
+    transform: scale(1.2);
+}
+.cuprum{
+    border-right: 2px solid black;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: .9em;
+        line-height: 1.1;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin: 10px 0 12px 0;
+
+    }
+
+
+    p {
+        line-height: 1.8;
+    }
+
+    /* Цвет пунктов меню в раскрывающихся списках */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .pre-scrollable {
+        max-height: 440px;
+    }
+
+    .phone-footer {
+        margin-top: 55px;
+        color: red;
+        font-size: 1.8em;
+    }
+
+    .main-container, .container {
+        padding: 6px;
+    }
+    .phone-main{
+        margin-top: 15px;
+    }
+    .slog-bg-main{
+        font-size: 1.5em;
+    }
+     .slogan {
+        margin: 10px 0 50px 0;
+    }
+    .contacts{
+        text-align: center;
+    }
+    .item img {
+        width: 20%;
+    }
+    .pictl, .pictr{
+
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .container{
+        box-shadow: none;
+    }
+    .form-horizontal{
+        margin-top: 10px;
+    }
+    .removal{
+        font-size: 2.3em;
+        text-align: center;
+        border:none;
+        margin-top: 20px;
+    }
+    .removal-span{
+        display: inline;
+    }
+    .removal-ul{
+        font-size:1.2em;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 2;
+        /*list-style: disc;*/
+    }
+    .manip {
+        background: none;
+    }
+    footer{
+        line-height: 1.5;
+    }
+}
